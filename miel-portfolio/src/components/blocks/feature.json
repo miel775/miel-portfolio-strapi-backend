@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_features",
+  "info": {
+    "displayName": "feature"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "component": "components.feature",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
