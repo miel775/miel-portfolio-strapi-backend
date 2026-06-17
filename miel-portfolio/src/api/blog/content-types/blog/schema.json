@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "blogs",
   "info": {
     "singularName": "blog",
@@ -16,6 +16,16 @@
     },
     "description": {
       "type": "text"
+    },
+    "featured_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "blocks": {
       "type": "dynamiczone",

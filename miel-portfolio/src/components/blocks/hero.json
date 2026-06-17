@@ -11,9 +11,6 @@
     "subheading": {
       "type": "string"
     },
-    "content": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -23,6 +20,9 @@
         "videos",
         "audios"
       ]
+    },
+    "content": {
+      "type": "richtext"
     }
   },
   "config": {}

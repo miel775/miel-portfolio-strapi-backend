@@ -16,7 +16,7 @@ export interface BlocksHero extends Struct.ComponentSchema {
     displayName: 'Hero';
   };
   attributes: {
-    content: Schema.Attribute.String;
+    content: Schema.Attribute.RichText;
     heading: Schema.Attribute.String;
     image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
@@ -33,6 +33,7 @@ export interface ComponentsFeature extends Struct.ComponentSchema {
   };
   attributes: {
     description: Schema.Attribute.Text;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     title: Schema.Attribute.String;
   };
 }

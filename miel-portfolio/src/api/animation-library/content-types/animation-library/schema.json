@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "animation_libraries",
+  "info": {
+    "singularName": "animation-library",
+    "pluralName": "animation-libraries",
+    "displayName": "animation-library"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
